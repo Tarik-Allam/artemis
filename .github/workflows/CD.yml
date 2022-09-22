@@ -1,5 +1,5 @@
 env:
-  repo: "https://github.com/Tarik-Allam/artemis"
+  repo: "https://github.com/Tarik-Allam/artemis.git"
   app_version: "1.0.0"
   project_id: "fkwhmttcyqewqjmc"
   region_repo: "us-central1"
@@ -12,9 +12,9 @@ name: ContinuousDelivery
 on:
   # Triggers the workflow on push or pull request events but only for the "main" branch
   push:
-    branches: [ "main" ]
+    branches: [ "master" ]
   pull_request:
-    branches: [ "main" ]
+    branches: [ "master" ]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
